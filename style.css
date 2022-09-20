@@ -381,7 +381,7 @@
         gap: 30px;
     }
     .chooseyourtour-navbar{
-        width: 300px;
+        width: 300cdсвcdcddccdcdcddscdpx;
         height: 56px;
         display: flex;
         flex-wrap: wrap;
@@ -1009,7 +1009,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
     }
     .reviews-cards__review{
         width: 278px;
-        height: 253px;
+        height: auto;
         margin-top: 20px;
         margin-left: 20px;    
     }
@@ -1067,31 +1067,29 @@ input[type=date]::-webkit-calendar-picker-indicator {
 }
 .travel-photo__class1{
     border-radius: 50px;
-    width: 442px;
+    width: 23.8%;
     object-fit: cover;   
 }
 .travel-photo__class2{
     border-radius: 50px;
-    width: 347px;
+    width: 18.6%;
     height: 301px;
     object-fit: cover;
 }
 .blok1{
     display: flex;
-    gap: 30px;
+    gap: 1.6%;
     flex-direction: row;
     max-width: 1860px;
     width: 100%;
-    overflow: auto;
     justify-content: space-between;
 }
 .blok2{
     display: flex;
-    gap: 30px;
+    gap: 1.6%;
     flex-direction: row;
     max-width: 1860px;
     width: 100%;
-    overflow: auto;
     justify-content: space-between;
 }
 @media(max-width:1024px){
