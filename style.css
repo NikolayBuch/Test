@@ -654,8 +654,9 @@ input[type=date]::-webkit-calendar-picker-indicator {
     color: #1B1F2B;
 }
 @media (min-width:1025px){
-    .collect-form__license a:hover{
+.collect-form__license a:hover{
     text-decoration-line: underline;
+    text-underline-offset: 3px;
     }
 }
 .collect-form__license a:active{
@@ -717,8 +718,10 @@ input[type=date]::-webkit-calendar-picker-indicator {
         width: 389px;
         height: 68px;
         border-radius: 10px;
-        background: #F9F7F4;
         border: none;
+        background: #F9F7F4 url('./img/ic-dropdown.svg') no-repeat right ;
+        background-size: 7%;
+        background-position: 347px 21px;
     }
     .collect-form__container{
         display: flex;
@@ -790,7 +793,9 @@ input[type=date]::-webkit-calendar-picker-indicator {
         width: 278px;
         height: 68px;
         border-radius: 10px;
-        background: #F9F7F4;
+        background: #F9F7F4 url('./img/ic-dropdown.svg') no-repeat right ;
+        background-size: 8%;
+        background-position: 246px 11px;
         border: none;
     }
     .collect-form__container{
@@ -1080,17 +1085,21 @@ input[type=date]::-webkit-calendar-picker-indicator {
     display: flex;
     gap: 1.6%;
     flex-direction: row;
-    max-width: 1860px;
+    max-width: 1900px;
     width: 100%;
     justify-content: space-between;
+    padding: 0 20px;
+    box-sizing: border-box;
 }
 .blok2{
     display: flex;
     gap: 1.6%;
     flex-direction: row;
-    max-width: 1860px;
+    max-width: 1900px;
     width: 100%;
     justify-content: space-between;
+    padding: 0 20px;
+    box-sizing: border-box;
 }
 @media(max-width:1024px){
     .travel-photo__blok{
@@ -1424,6 +1433,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
 @media (min-width:1025px){
     .mail-info a:hover{
     text-decoration: underline;
+    text-underline-offset: 2px;
     color: #1B1F2B;
     cursor: pointer;
     }
@@ -1477,11 +1487,13 @@ input[type=date]::-webkit-calendar-picker-indicator {
 @media (min-width:1025px){
     .footer-socialnetworks-container__link a:hover{
     text-decoration: underline;
+    text-underline-position: under;
     cursor: pointer;
     }
 }
 .footer-socialnetworks-container__link a:active{
     text-decoration: underline;
+    text-underline-position: under;
     color: #EFA501;
 }
 .footer-socialnetworks-container__link ul{
